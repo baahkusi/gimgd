@@ -10,7 +10,7 @@ Basically allows you to download any number of images for a particular google se
 - Seperate multiple `labels` by `,` (comma)
 - images are saved to `./data` directory under label name
 
-##### Aside **label** there are other parameter that can be passed.
+Aside **label** there are other parameter that can be passed.
 
 - **limit** parameter specifies the number of images to download for each label
 - example `npm run crawl -- --label="power lines" --limit=50`
