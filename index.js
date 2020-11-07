@@ -7,9 +7,7 @@ const gsc = require('./gscraper');
 (async () =>{
 
   const config = {
-      thumbLinkSelector: argv.tlink || '.wXeWr.islib.nfEiy.mM5pbd',
-      thumbSelector: argv.tselect || '.Q4LuWd',
-      imageSelector: argv.iselect || '.n3VNCb',
+      thumbLinkSelector: argv.tlink || '.wXeWr.islib.nfEiy.mM5pbd', // image thumbnails are wrapped in link tags with these classes
       imageLimit: argv.limit || 15,
       url: (label) => `https://www.google.com/search?q=${label}&source=lnms&tbm=isch`
   }
